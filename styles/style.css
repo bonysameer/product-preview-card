@@ -62,7 +62,7 @@ h1{
    cursor: pointer;
 }
 
-@media (max-width:1440px){
+@media (max-width:875px){
    .product-card{
       display:flex;
       flex-wrap:wrap;
