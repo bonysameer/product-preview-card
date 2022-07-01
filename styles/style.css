@@ -1,0 +1,72 @@
+
+body{
+   font-size: 14px;
+   text-align: left;
+   background-color: hsl(30, 38%, 92%);
+   padding: 100px 400px 60px;
+}
+
+.product-card{
+   display: flex;
+   height: 500px;
+   width: 350px;
+}
+img{
+   height: 500px;
+   width: 350px;
+}
+.content{
+   padding: 25px;
+   background-color: hsl(0, 0%, 100%);
+}
+h5,p{
+   color: hsl(228, 12%, 48%);
+   font-family: 'Montserrat', sans-serif;
+}
+.spacing{
+   word-spacing: 4px;
+}
+.content-paragraph{
+   line-height: 0.8cm;
+}
+h1{
+   line-height: 0.75cm;
+   font-family: 'Fraunces', serif;
+}
+.button{
+   height: 40px;
+   width: 300px;
+   background-color:  hsl(158, 36%, 37%);
+   color: hsl(0, 0%, 100%);
+   position: relative;
+   top: 70px;
+   border-radius: 10px;
+   border-style: none;
+}
+
+.amount{
+   color: hsl(158, 36%, 37%);
+   font-size: 2.1rem;
+   position: relative;
+   top: 55px;
+   font-family: 'Fraunces', serif;
+}
+#price-tag{
+   font-size: 0.6rem;
+   color: black;
+   text-decoration: line-through;
+}
+
+.button:hover{
+   background-color: hsl(212, 21%, 14%);
+   cursor: pointer;
+}
+
+@media (max-width:1440px){
+   .product-card{
+      display:flex;
+      flex-wrap:wrap;
+   }
+
+}
+
